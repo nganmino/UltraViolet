@@ -1,0 +1,139 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+.navbar {
+  background: #7251b5;
+}
+.nav-link,
+.navbar-brand {
+  color: #f4f4f4;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  background: #f4f4f4;
+  color: #7251b5;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-toggler {
+  background: #fff !important;
+}
+
+/*header style*/
+.header {
+  position: relative;
+  background-image: url("../images/background_pic.jpeg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.description {
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+}
+.description h1 {
+  color: #7251b5;
+}
+.description p {
+  color: #fff;
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
+}
+.description button {
+  border: 1px solid #7251b5;
+  background: #7251b5;
+  color: #fff;
+}
+
+.project {
+  margin: 4em 2em;
+  position: relative;
+}
+.project h1 {
+  color: #7251b5;
+  margin: 2em;
+}
+.project img {
+  height: 100%;
+  width: 100%;
+  border: 2px solid #7251b5;
+  padding: 1em;
+}
+.project .desc {
+  padding: 2em;
+  border-left: 4px solid #10828c;
+}
+.project .desc h3 {
+  color: #10828c;
+}
+.project .desc p {
+  line-height: 2;
+  color: #888;
+}
+
+/*diary*/
+.diary {
+  margin: 4em 2em;
+  position: relative;
+}
+.diary h1 {
+  color: #7251b5;
+  margin: 2em;
+}
+.diary img {
+  height: 15rem;
+  width: 100%;
+  margin: 1em;
+}
+
+.team {
+  margin: 4em 0;
+  position: relative;
+}
+.team h1 {
+  color: #7251b5;
+  margin: 2em;
+}
+.team .item {
+  position: relative;
+  overflow: hidden;
+}
+.team .des {
+  background: #7251b5;
+  color: #fff;
+  text-align: center;
+  border-top-right-radius: 93%;
+  transition: 0.3s ease-in-out;
+  position: absolute;
+  width: 88%;
+  bottom: 24px;
+}
