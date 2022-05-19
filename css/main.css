@@ -65,14 +65,9 @@ body {
 .description p {
   color: #fff;
   font-size: 20px;
-  width: 50%;
   line-height: 1.5;
 }
-.description button {
-  border: 1px solid #7251b5;
-  background: #7251b5;
-  color: #fff;
-}
+
 
 .project {
   margin: 4em 2em;
